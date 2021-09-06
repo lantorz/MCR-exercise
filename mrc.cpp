@@ -6,6 +6,7 @@ using namespace std;
 
 
 bool isWin(char game[3][3]){
+	//added a new line for comment
 	bool win = false;
 	if ((game[0][0]!= ' ') && (game[0][0] == game[0][1] && game[0][1] == game[0][2])) win = true;
 	if ((game[1][0]!= ' ') && (game[1][0] == game[1][1] && game[1][1] == game[1][2])) win = true;
